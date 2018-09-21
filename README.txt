@@ -5,13 +5,13 @@ There is also booking confirmation fuctionality implemented, however using mock 
 endpoint, so no flights could be truly booked. Search is done using production
 endpoint so all flight details are real.
 
-User can specifiy follwing arguments as input to the script:
+User can specifiy following arguments as input to the script:
 
 mandatory:
 --date 17/09/2018           Departure date
 --flight_from PRG           IATA code of departure airport
 --to LGW                    IATA code of arrival airport
-s
+
 optional:
 --one_way or --returning 5  one way or returning flight with number of days to stay, default is one way
 --cheapest or --fastest     search for cheapest or fastest flight, default is cheapest
